@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+stockpriceprediction.egg-info/PKG-INFO
+stockpriceprediction.egg-info/SOURCES.txt
+stockpriceprediction.egg-info/dependency_links.txt
+stockpriceprediction.egg-info/top_level.txt
