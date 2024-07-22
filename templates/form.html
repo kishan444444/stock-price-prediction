@@ -1,0 +1,41 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+   
+    
+    <div class="form-group">
+      <label for="Open ">Open:</label>
+      <input type="text" id="Open" name="Open" placeholder="Enter Open value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="High">High:</label>
+        <input type="text" id="High" name="High" placeholder="Enter High value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="Low ">Low:</label>
+        <input type="text" id="Low" name="Low" placeholder="Enter Low value (float)">
+    </div>
+
+    <div class="form-group">  
+      <label for="Adj_Close">Adj_Close:</label>
+      <input type="text" id="Adj_Close" name="Adj_Close" placeholder="Enter Adj_Close (float)">
+    </div>
+
+    <div class="form-group">  
+      <label for="Volume">Volume:</label>
+      <input type="text" id="Volume" name="Volume" placeholder="Enter Volume (float)">
+    </div>
+
+
+    
+
+  
+
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

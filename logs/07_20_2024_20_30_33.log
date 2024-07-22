@@ -1,0 +1,23 @@
+[2024-07-20 20:30:34,990] 21 root - INFO - data_ingestion_started
+[2024-07-20 20:30:35,004] 25 root - INFO - I have read the dataset as df
+[2024-07-20 20:30:35,127] 29 root - INFO - i have saved the raw dataset in artifacts folder
+[2024-07-20 20:30:35,128] 31 root - INFO - here i had perform train_test_split
+[2024-07-20 20:30:35,128] 33 root - INFO - train_test_split completed
+[2024-07-20 20:30:35,309] 38 root - INFO - data ingestion part completed
+[2024-07-20 20:30:35,373] 67 root - INFO - read train and test data completed
+[2024-07-20 20:30:35,390] 68 root - INFO - Train Dataframe Head : 
+         Date      Open       High        Low      Close  Adj Close  Volume
+0  1970-01-02  11.09950  11.204875  10.994125  11.169750   0.101497   24400
+1  1970-01-05  11.16975  11.345375  11.169750  11.345375   0.103093   13700
+2  1970-01-06  11.31025  11.310250  11.029250  11.134625   0.101178   15100
+3  1970-01-07  11.09950  11.099500  10.713125  10.959000   0.099582   10600
+4  1970-01-08  10.95900  10.959000  10.853625  10.959000   0.099582   18000
+[2024-07-20 20:30:35,390] 69 root - INFO - Test Dataframe Head : 
+         Date      Open       High        Low      Close  Adj Close  Volume
+0  1970-01-02  11.09950  11.204875  10.994125  11.169750   0.101497   24400
+1  1970-01-05  11.16975  11.345375  11.169750  11.345375   0.103093   13700
+2  1970-01-06  11.31025  11.310250  11.029250  11.134625   0.101178   15100
+3  1970-01-07  11.09950  11.099500  10.713125  10.959000   0.099582   10600
+4  1970-01-08  10.95900  10.959000  10.853625  10.959000   0.099582   18000
+[2024-07-20 20:30:35,390] 37 root - INFO - Pipeline Initiated
+[2024-07-20 20:30:35,390] 157 root - INFO - Exception occured in initiating data transformation
